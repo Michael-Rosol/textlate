@@ -1,0 +1,41 @@
+/* Button Styles */
+.upload-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #7E57C2; /* Purple color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: 'Open Sans', sans-serif; /* Apply Open Sans font */
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto; /* Center the button horizontally */
+  }
+  
+  .upload-button:hover {
+    background-color: #5E35B1; /* Darker shade of purple on hover */
+    transform: translateY(-2px);
+  }
+  
+  .upload-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Styles */
+  .header {
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center; /* Align header content to center */
+    margin-top: 30px;
+    padding-bottom: 450px; /* Add margin to create space from the top */
+  }
+  
