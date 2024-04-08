@@ -12,6 +12,7 @@ const PremiumPage = () => {
             <div>
                 <h1>Hello, Welcome to Da Site </h1>
                 <h3>You are being authenticated...</h3>
+                <h2>Something</h2>
             </div>
         )}
 
