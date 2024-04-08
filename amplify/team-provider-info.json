@@ -10,6 +10,11 @@
       "StackName": "amplify-master-dev-f7115",
       "StackId": "arn:aws:cloudformation:us-east-1:851725239428:stack/amplify-master-dev-f7115/78b2fc00-f3da-11ee-9838-120b61dacfd1",
       "AmplifyAppId": "dkxpjqjkys3ml"
+    },
+    "categories": {
+      "auth": {
+        "masterfc94d45c": {}
+      }
     }
   }
 }

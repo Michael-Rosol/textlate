@@ -6,8 +6,12 @@ import '../styles/Textgen.css'
 export {}; 
 
 const Textgen = () => {
+
+  
+
+
   return (
-    <div>
+    <div className='container'>
       <h1 className='header'>Please Upload an Image</h1>
 
       <button className='upload-button'>Upload Image</button>

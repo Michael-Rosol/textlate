@@ -5,6 +5,10 @@ import Site from './pages/Site';
 import SignUp from './pages/SignUp';
 import Navbar from './Navbar';
 import Textgen from './pages/Textgen';
+import Home from './pages/Home';
+import PremiumPage from './pages/PremiumPage';
+
+
 
 function App() {
   return (
@@ -15,6 +19,8 @@ function App() {
           <Route path="/" element={<Textgen/>} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="gen" element={<Site />} />
+          <Route path="home" element={<Home />} />
+          <Route path="premium" element={<PremiumPage/>} />
         </Routes>
     </Router>
     </div>
