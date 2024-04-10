@@ -1,24 +1,17 @@
+import { Amplify } from 'aws-amplify';
+import type { WithAuthenticatorProps } from '@aws-amplify/ui-react';
+import { withAuthenticator } from '@aws-amplify/ui-react';
+import '@aws-amplify/ui-react/styles.css';
+import config from '../aws-exports'; 
+ Amplify.configure(config);
 
-import React from 'react'
-import { Authenticator } from '@aws-amplify/ui-react'
-import '@aws-amplify/ui-react/styles.css'
-
-
-
-const PremiumPage = () => {
+export function App({ signOut, user }: WithAuthenticatorProps) {
   return (
-    <Authenticator>
-        {({ signOut}) => (
-            <div>
-                <h1>Hello, Welcome to Da Site </h1>
-                <h3>You are being authenticated...</h3>
-                <h2>Something</h2>
-            </div>
-        )}
-
-    </Authenticator>
-  )
+    <>
+      <h1>Hello {user?.username}</h1>
+      <button onClick={signOut}>Sign out</button>
+    </>
+  );
 }
 
-export default PremiumPage
-export {}; 
+export default withAuthenticator(App);
