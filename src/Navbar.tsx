@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 
+
+
 const Navbar: React.FC = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -23,10 +25,10 @@ const Navbar: React.FC = () => {
 
   return (
     <div className="flex items-center justify-between text-black px-4 py-2">
-      <div className="text-lg font-bold">Textlate</div>
+      <div className="ml-5 text-2xl font-bold">Textlate</div>
       <div className="relative" ref={dropdownRef}>
         {isDropdownOpen && (
-          <div className="absolute right-0 mt-2 w-48 bg-black text-white rounded-md shadow-lg">
+          <div className="absolute right-0.5 mt-11 w-48 bg-black text-white rounded-md shadow-lg">
             <ul className="py-1">
               <li>
                 <a href="#" className="block px-4 py-2 text-sm hover:bg-gray-700">About</a>
