@@ -1,22 +1,22 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-translate-dev-8aa60-authRole",
-      "UnauthRoleArn": "arn:aws:iam::851725239428:role/amplify-translate-dev-8aa60-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::851725239428:role/amplify-translate-dev-8aa60-authRole",
+      "AuthRoleName": "amplify-copium-dev-31452-authRole",
+      "UnauthRoleArn": "arn:aws:iam::851725239428:role/amplify-copium-dev-31452-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::851725239428:role/amplify-copium-dev-31452-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-translate-dev-8aa60-deployment",
-      "UnauthRoleName": "amplify-translate-dev-8aa60-unauthRole",
-      "StackName": "amplify-translate-dev-8aa60",
-      "StackId": "arn:aws:cloudformation:us-east-1:851725239428:stack/amplify-translate-dev-8aa60/56e84d40-0a79-11ef-b08b-128d7860cddf",
-      "AmplifyAppId": "d1s26kgs50yljn"
+      "DeploymentBucketName": "amplify-copium-dev-31452-deployment",
+      "UnauthRoleName": "amplify-copium-dev-31452-unauthRole",
+      "StackName": "amplify-copium-dev-31452",
+      "StackId": "arn:aws:cloudformation:us-east-1:851725239428:stack/amplify-copium-dev-31452/43af8090-0e5c-11ef-975f-12a02be7704f",
+      "AmplifyAppId": "d1k2umv8kqrhll"
     },
     "categories": {
       "auth": {
-        "translateafa7ba7d": {}
+        "copiumb55ace3d": {}
       },
       "predictions": {
-        "translateTexte5ee5a93": {}
+        "translateTextdfb82f72": {}
       }
     }
   }

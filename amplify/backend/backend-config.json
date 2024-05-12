@@ -1,6 +1,6 @@
 {
   "auth": {
-    "translateafa7ba7d": {
+    "copiumb55ace3d": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -28,7 +28,7 @@
     }
   },
   "predictions": {
-    "translateTexte5ee5a93": {
+    "translateTextdfb82f72": {
       "convertType": "translateText",
       "providerPlugin": "awscloudformation",
       "service": "Translate"

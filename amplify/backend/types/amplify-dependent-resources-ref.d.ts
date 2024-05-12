@@ -1,6 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
   "auth": {
-    "translateafa7ba7d": {
+    "copiumb55ace3d": {
       "AppClientID": "string",
       "AppClientIDWeb": "string",
       "IdentityPoolId": "string",
@@ -11,7 +11,7 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "predictions": {
-    "translateTexte5ee5a93": {
+    "translateTextdfb82f72": {
       "region": "string",
       "sourceLang": "string",
       "targetLang": "string"
