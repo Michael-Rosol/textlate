@@ -5,7 +5,7 @@ import { StartSpeechSynthesisTaskCommand } from "@aws-sdk/client-polly";
 AWS.config.update({
   accessKeyId: process.env.REACT_APP_ACCESSKEY!,
   secretAccessKey: process.env.REACT_APP_SECRETKEY!, 
-  region: process.env.REACT_APP_REGION
+  region: process.env.REACT_APP_REGION!
 });
 
 const polly = new AWS.Polly(); 
