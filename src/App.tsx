@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './Navbar';
 import Textgen from './pages/Textgen';
@@ -14,9 +13,7 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-        {/* <Route path="/bruh" element={<Textgen/>} /> */}
-          <Route path="/" element={<Textgen/>} />
-          {/* <Route path="gen" element={<Site />} /> */}
+          <Route path="/" element={<Textgen/>} />    
           <Route path="speech" element={<Home />} />
         </Routes>
     </Router>
