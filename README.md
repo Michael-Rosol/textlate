@@ -1,4 +1,4 @@
 # Textlate 
 
-Web application with text to speach and translate capabilities 
+Web application with text to speech and translate capabilities 
 
