@@ -2,3 +2,4 @@
 
 Web application with text to speech and translate capabilities 
 
+### Text Translation: 
